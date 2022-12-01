@@ -1,0 +1,5 @@
+[user]
+	name = RussellChamp
+    email = RussellChamp@gmail.com
+[core]
+		sshCommand = ssh -i C:\Users\RussellChampoux\.ssh\russellchamp_id_rsa
