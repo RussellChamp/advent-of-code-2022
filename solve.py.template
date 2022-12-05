@@ -1,9 +1,22 @@
 # Day #DAY#: #TITLE#
 
+import os
+
+def get_path():
+  return os.path.join(os.path.dirname(__file__), 'data.txt')
+
 def solve_part1():
-  print('hello')
+  total = 0
+
+  print('GOAL: #GOAL1#')
+  print('ANSWER: #ANSWER1#)
+  print('Total: %d' % (total))
 def solve_part2():
-  print('world')
+  total = 0
+  
+  print('GOAL: #GOAL2#')
+  print('ANSWER: #ANSWER2#)
+  print('Total: %d' % (total))
 
 if __name__ == '__main__':
   solve_part1()
