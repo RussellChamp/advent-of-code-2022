@@ -1,3 +1,5 @@
+# Day #DAY#: #TITLE#
+
 def solve_part1():
   print('hello')
 def solve_part2():

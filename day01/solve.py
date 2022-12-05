@@ -1,3 +1,5 @@
+# Day 01: Calorie Counting
+
 import os
 
 def get_path():
