@@ -8,14 +8,18 @@ def get_path():
 def solve_part1():
   total = 0
 
+  with open(get_path()) as fp:
+    for line in fp:
+      print(line)
+
   print('GOAL: #GOAL1#')
-  print('ANSWER: #ANSWER1#)
+  print('ANSWER: #ANSWER1#')
   print('Total: %d' % (total))
 def solve_part2():
   total = 0
   
   print('GOAL: #GOAL2#')
-  print('ANSWER: #ANSWER2#)
+  print('ANSWER: #ANSWER2#')
   print('Total: %d' % (total))
 
 if __name__ == '__main__':
