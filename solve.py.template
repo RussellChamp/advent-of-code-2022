@@ -12,12 +12,15 @@ def solve_part1():
     for line in fp:
       print(line)
 
+  print('Day #DAY#: Part 1')
   print('GOAL: #GOAL1#')
   print('ANSWER: #ANSWER1#')
   print('Total: %d' % (total))
+
 def solve_part2():
   total = 0
-  
+
+  print('Day #DAY#: Part 2')  
   print('GOAL: #GOAL2#')
   print('ANSWER: #ANSWER2#')
   print('Total: %d' % (total))
