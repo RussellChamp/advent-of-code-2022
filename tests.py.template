@@ -1,4 +1,5 @@
 import unittest
+import solve
 
 class Day#DAY#TestMethods(unittest.TestCase):
   def setUp(self):
@@ -6,7 +7,11 @@ class Day#DAY#TestMethods(unittest.TestCase):
 
   # Does a thing
   def test_true(self):
-    self.assertEqual(True, False)
+      test_cases = [
+        [True, False]
+    ]
+    for [expected, value] in test_cases:
+    self.assertEqual(expected, value)
   
 if __name__ == '__main__':
   unittest.main()
